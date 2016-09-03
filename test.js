@@ -1,12 +1,10 @@
 
 true
 var b = 'a'
-undefined
-b
 "a"
 a =false
 false
-a 
+a
 false
 a = 1
 1
@@ -41,4 +39,3 @@ num == str;
 true
 num === str;
 false
-
