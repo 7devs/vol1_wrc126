@@ -9,6 +9,7 @@ var app = require('express')(),
     );
 
 app.use('/user',require('./lib/routers/user'));
+app.use('/album',require('./lib/routers/album'));
 
 app.use('/*',function(req,res,next){
   res.status(404).send('Not Found');
